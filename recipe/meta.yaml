@@ -1,5 +1,5 @@
 {% set name = "canopy-tools" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.1" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/canopy_tools-{{ version }}.tar.gz
-  sha256: f9368a5cf002cff05ca96d9b4d84bf4c74a3ff28fa198bf67b29c8d51e531fa8
+  sha256: bbf5694e085aced3c7ea3e192e4228ac8c8b6750eda51069a2a1ee1811659644
 
 build:
   noarch: python
