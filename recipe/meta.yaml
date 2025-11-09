@@ -17,13 +17,13 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python >=3.12
     - setuptools >=61.0
     - setuptools-scm >=6.2
     - wheel
     - pip
   run:
-    - python >={{ python_min }}
+    - python >=3.12
     - pandas >=2.2.0
     - xarray >=2025.3.0
     - numpy >=2.2.0
@@ -34,7 +34,10 @@ requirements:
     - seaborn >=0.13.0
     - scipy >=1.15.0
     - jenkspy >=0.4.0
-    - regionmask>=0.13.0
+    - regionmask >=0.13.0
+    - pyjanitor >=0.31.0
+    - numba >=0.61.2
+    - geocat-viz >=2025.07.0
 
 test:
   imports:
@@ -43,15 +46,12 @@ test:
     - pip check
   requires:
     - pip
-    - python {{ python_min }}
 
 about:
   summary: A python package to analyse LSM and DGVM outputs
-  home: https://codebase.helmholtz.cloud/canopy/canopy
   license: MPL-2.0
-  license_family: MOZILLA
   license_file: LICENSE
 
 extra:
   recipe-maintainers:
-    - AdrienDams
+    - AddYourGitHubIdHere
