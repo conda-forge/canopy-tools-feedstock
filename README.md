@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@AdrienDams](https://github.com/AdrienDams/)
+* [@peichmb](https://github.com/peichmb/)
 
