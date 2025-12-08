@@ -36,7 +36,6 @@ requirements:
     - jenkspy >=0.4.0
     - regionmask >=0.13.0
     - pyjanitor >=0.31.0
-    - pandas_flavor<0.8
     - numba >=0.61.2
     - geocat-viz >=2025.07.0
 
