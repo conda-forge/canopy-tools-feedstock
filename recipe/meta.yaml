@@ -1,5 +1,5 @@
 {% set name = "canopy-tools" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.3" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/canopy_tools-{{ version }}.tar.gz
-  sha256: 142cd3e0743f26a1149c3d7bf491f5941b8f58c224d844aa514fe60adc478f78
+  sha256: 73cf339790d5d40e1c16fb921ec3f83dd714b6e07ed72a560b8dc20f8c4ab5d4
 
 build:
   noarch: python
@@ -36,7 +36,6 @@ requirements:
     - jenkspy >=0.4.0
     - regionmask >=0.13.0
     - pyjanitor >=0.31.0
-    - pandas_flavor<0.8
     - numba >=0.61.2
     - geocat-viz >=2025.07.0
 
